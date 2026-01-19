@@ -1,0 +1,40 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+components/
+managed_components/
+
+# ESP-IDF tools and Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# ESP-IDF specific
+esp-idf/
+components/*/build/
+components/*/sdkconfig
+components/*/sdkconfig.old
+
+# Component manager
+dependencies.lock
