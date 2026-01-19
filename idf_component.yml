@@ -2,7 +2,7 @@ dependencies:
   idf: ">=5.0"
 description: "STSPIN220 stepper motor driver for ESP-IDF"
 url: "https://github.com/kattaliraees/stspin220-esp-idf"
-version: "1.0.1"
+version: "1.0.0"
 tags:
   - stepper
   - motor
